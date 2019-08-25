@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey - Friend Finder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <form id="survey-form">
+      <h2>Survey Questions</h2>
+      <hr>
+
+      <div class="form-group">
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 1</strong></h3>
+        <h4>You like pineapple on pizza?</h4>
+        <select class="form-control" id="q1" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 2</strong></h3>
+        <h4>You like long walks on the beach??</h4>
+        <select class="form-control" id="q2" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 3</strong></h3>
+        <h4>You like to party???</h4>
+        <select class="form-control" id="q3" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 4</strong></h3>
+        <h4>You suffer from any skin conditions?</h4>
+        <select class="form-control" id="q4" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 5</strong></h3>
+        <h4>You have a short fuse?</h4>
+        <select class="form-control" id="q5" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 6</strong></h3>
+        <h4>Do you belieeeve in life after love?</h4>
+        <select class="form-control" id="q6" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 7</strong></h3>
+        <h4>Can you feel something inside you say
+          I really don't think you're strong enough, no?</h4>
+        <select class="form-control" id="q7" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 8</strong></h3>
+        <h4>Are You Experienced?</h4>
+        <select class="form-control" id="q8" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 9</strong></h3>
+        <h4>Could You Be Loved?</h4>
+        <select class="form-control" id="q9" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3><strong>Question 10</strong></h3>
+        <h4>Wouldn't it Be Nice?</h4>
+        <select class="form-control" id="q10" required>
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br>
+
+      <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
+    </form>
+  </div>
+
+   <div id="results-modal" class="modal fade" role="dialog">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="results-modal-title"><strong>Best Match</strong></h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+           <h6 id="results-modal-match-name"></h6>
+           <img id="results-modal-match-img" src =""/>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript">
+
+    // Capture the form inputs
+    $("#survey-form").on("submit", handleSubmit);
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      var surveyData = {
+        name: $('#name').val(),
+        photo: $('#photo').val(),
+        scores: [
+          parseInt($("#q1").val()),
+          parseInt($("#q2").val()),
+          parseInt($("#q3").val()),
+          parseInt($("#q4").val()),
+          parseInt($("#q5").val()),
+          parseInt($("#q6").val()),
+          parseInt($("#q7").val()),
+          parseInt($("#q8").val()),
+          parseInt($("#q9").val()),
+          parseInt($("#q10").val())
+        ],
+      };
+      $.ajax({
+        type: "POST",
+        url: "/api/friends",
+        dataType: "json",
+        data: JSON.stringify(surveyData),
+        contentType: 'application/json',
+        success: function (res) {
+          showMatchModal(res);
+        }
+      });
+      return false;
+    }
+
+    function showMatchModal(friendMatch) {
+      if (friendMatch && friendMatch.name) {
+        $("#results-modal-title").html('<strong>Best Match</strong>');
+        $("#results-modal-match-name").html(friendMatch.name);
+        $("#results-modal-match-img").attr({ "src": friendMatch.photo });
+        $("#results-modal").modal('show');
+      }
+      else {
+        $("results-modal-title").html('<strong>No Match</strong>');
+        $("#results-modal-match-name").html(':(');
+        $("#results-modal-match-img").attr({ "src": '' });
+      }
+    }
+  </script>
+</body>
